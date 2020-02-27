@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\background.gif" />
+    <None Include="wwwroot\images\favicon.ico" />
+    <None Include="wwwroot\images\greg.jpg" />
+    <None Include="wwwroot\images\gregthumb.jpg" />
+    <None Include="wwwroot\images\javalogo.gif" />
+    <None Include="wwwroot\images\melanie.jpg" />
+    <None Include="wwwroot\images\melaniethumb.jpg" />
+    <None Include="wwwroot\images\windingroad.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>

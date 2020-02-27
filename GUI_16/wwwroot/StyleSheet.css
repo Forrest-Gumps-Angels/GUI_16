@@ -1,0 +1,85 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffcc;
+    background-image: url(images/background.gif)
+
+}
+
+h2 {
+    background-color: #ccaa66;
+    padding-left: 10px;
+}
+
+#content {
+    background-color: #ededbb;
+    max-width: 80%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.57);
+}
+
+footer {
+    background-color: #ccaa66;
+    text-align: center;
+    font-size:0.6em;
+}
+
+
+.title {
+    background-color: #ccaa66;
+    text-align:center;
+    padding:1px;
+}
+
+.artist_box {
+    margin: auto;
+    width: 60%;
+}
+
+#text_content {
+    grid-area: textcontent;
+    margin: 30px;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas: "sidebar textcontent";
+}
+
+.navigationMenu {
+    grid-area: sidebar;
+    /*display:inline-flex;*/
+    background-color: #ffffcc;
+    /*width: 100px;*/
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+    .navigationMenu ul {
+        text-align: center;
+        background-color: #ffffcc;
+        list-style-type: none;
+        margin-bottom: 100%;
+        padding: 0;
+        height: 100%;
+    }
+
+
+.navigationMenu li a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+
+.navigationMenu li a:hover {
+    background-color: #555;
+    color: white;
+}
